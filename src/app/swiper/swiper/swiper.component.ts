@@ -4,7 +4,8 @@ import {
 } from '@angular/core';
 import { isPlatformBrowser } from '@angular/common';
 
-declare var Swiper: any;
+// declare var Swiper: any;
+import { Swiper } from 'swiper';
 
 @Component({
   selector: 'swiper',
